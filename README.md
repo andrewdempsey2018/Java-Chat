@@ -7,9 +7,9 @@
 
 * Project status: In development
 
-Example:
+Video demonstration:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KwgaycbBDQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Click here to see the project in action on YouTube](https://www.youtube.com/embed/KwgaycbBDQw)
 
 We see here a simple RC style plane, using Internet communication to control its servos. This type of communication potentially leads to near infinite range of the vehicle. Initial tests however show that lag is an issue. The system as it stands would be more suited to a ground based vehicle such as a boat or a rover however, a slow flying glider type configuration would theoretically be feasible.
 
