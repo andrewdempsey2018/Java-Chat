@@ -1,14 +1,17 @@
 import java.io.*;
 import java.net.*;
 
-public class TServe implements Runnable {
+public class ServerConnection implements Runnable {
 
     public void run() {
         try {
             System.out.println("Waiting on a client to connect...");
 
             ServerSocket serverSocket = new ServerSocket(6666);
+
             Socket socket = serverSocket.accept();
+            System.out.println("A client has connected...");
+
             DataInputStream datainputStream = new DataInputStream(socket.getInputStream());
 
             String aString = "";

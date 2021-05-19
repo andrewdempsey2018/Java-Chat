@@ -1,7 +1,7 @@
-public class Manager {
+public class Server {
     public static void main(String[] args) {
 
-        TServe serve1 = new TServe();
+        ServerConnection serve1 = new ServerConnection();
 
         Thread thread = new Thread(serve1);
         thread.start();
