@@ -1,3 +1,3 @@
 #Java Chat
 
-######Web chat powered by java sockets. Console and GUI versions.
+######Web chat using Java sockets. Console and GUI versions.
